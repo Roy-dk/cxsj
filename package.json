@@ -62,14 +62,17 @@
     ]
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "ant-design-vue": "^1.7.4",
     "axios": "^0.18.0",
     "chart.js": "^3.0.2",
     "dplayer": "^1.25.0",
+    "echarts": "^5.1.1",
     "electron-updater": "^4.2.0",
     "element-ui": "^2.4.11",
     "express": "^4.16.4",
     "good-storage": "^1.1.0",
+    "jquery": "^3.6.0",
     "mousetrap": "^1.6.2",
     "vue": "^2.5.16",
     "vue-electron": "^1.0.6",

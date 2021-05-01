@@ -5,12 +5,12 @@
     <title>player</title>
     <% if (htmlWebpackPlugin.options.nodeModules) { %>
       <!-- Add `node_modules/` to global paths so `require` works properly in development -->
-      <script>
+      <script> 
         require('module').globalPaths.push('<%= htmlWebpackPlugin.options.nodeModules.replace(/\\/g, '\\\\') %>')
       </script>
     <% } %>
   </head>
-  <body>
+  <body style="background-color:#080a20;overflow:hidden">
     <div id="app"></div>
     <!-- Set `__static` path to static files in production -->
     <% if (!process.browser) { %>
@@ -22,3 +22,4 @@
     <!-- webpack builds are automatically injected -->
   </body>
 </html>
+ 

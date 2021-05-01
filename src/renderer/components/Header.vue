@@ -1,5 +1,6 @@
 <template>
   <div :style="{ color: theme.textColor }" class="header">
+    智慧交通监控数据可视化平台v1.0
     <div class="middle" v-if="!isFullScreen"></div>
     <div class="right" v-if="!isFullScreen">
       <span
@@ -177,7 +178,7 @@ export default {
         height: 0;
         width: 0;
         border: 5px solid transparent;
-        border-bottom-color: greenyellow;
+        border-bottom-color: #e8e8e8;
       }
       > li {
         cursor: pointer;
@@ -194,12 +195,12 @@ export default {
           background-color: #878788;
         }
         &:hover {
-          color: #5dee00;
+          color: #e8e8e8;
         }
       }
     }
     > span:nth-child(1) {
-      color: #5dee00;
+      color: #e8e8e8;
       font-size: 16px;
     }
     > div {
@@ -235,7 +236,7 @@ export default {
       line-height: 36px;
       cursor: pointer;
       &:hover {
-        color: #5dee00;
+        color: #e8e8e8;
       }
     }
     .history {
@@ -270,7 +271,7 @@ export default {
 .exit-fullScreen {
   cursor: pointer;
   &:hover {
-    color: #5dee00;
+    color: #e8e8e8;
   }
 }
 
@@ -288,7 +289,7 @@ export default {
     height: 0;
     content: "";
     border: 7px solid transparent;
-    border-bottom-color: greenyellow;
+    border-bottom-color: e8e8e8;
   }
 }
 .clear-history,
@@ -300,7 +301,7 @@ export default {
 .clear-history {
   cursor: pointer;
   &:hover {
-    color: #5dee00;
+    color: #e8e8e8;
   }
 }
 
@@ -322,7 +323,7 @@ export default {
     height: 0;
     content: "";
     border: 7px solid transparent;
-    border-bottom-color: greenyellow;
+    border-bottom-color: e8e8e8;
   }
   > li {
     width: 113px;

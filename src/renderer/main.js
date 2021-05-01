@@ -32,6 +32,11 @@ import { createApp } from 'vue';
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
 
+import * as echarts from 'echarts';
+import animated from 'animate.css';
+
+Vue.use(animated)
+Vue.prototype.$echarts = echarts;
 Vue.use(Antd);
 Vue.component("MyHeader", MyHeader);
 Vue.component("MyVideo", MyVideo);

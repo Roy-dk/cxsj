@@ -32,11 +32,12 @@ function createWindow() {
         webPreferences: {
             webSecurity: false
         },
+        webPreferences: {experimentalFeatures: true},
         // 初始化时的背景颜色
         backgroundColor: '#2e2c29',
         frame: false //关闭最大化那一栏
-    })
-
+    }) 
+    mainWindow.maximize()
     mainWindow.loadURL(winURL)
 
     mainWindow.on('close', () => {

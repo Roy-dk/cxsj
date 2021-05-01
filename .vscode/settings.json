@@ -1,0 +1,6 @@
+{
+    "i18n-ally.localesPaths": [
+        "release/win-unpacked/locales",
+        "src/renderer/lang"
+    ]
+}
