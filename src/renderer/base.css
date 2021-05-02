@@ -146,7 +146,7 @@ a{
     max-width: 1920px;
     min-height: 780px;
     margin: 0 auto;
-    background: url(/static/logo.png) no-repeat 0 0 / contain;
+    background: url(./assets/logo.png) no-repeat 0 0 / contain;
     display: flex;
     padding: 3.667rem 0.833rem 0;
 }
@@ -162,7 +162,7 @@ a{
     /* 边框 */
     box-sizing: border-box;
     border: 2px solid red;
-    border-image: url(/static/border.png) 51 38 21 132;
+    border-image: url(./assets/border.png) 51 38 21 132;
     border-width: 2.125rem 1.583rem 0.875rem 5.5rem;
     position: relative;
     margin-bottom: 0.833rem;
@@ -350,7 +350,7 @@ a{
   width: 7rem;
   padding: 1.5rem 1.25rem;
   box-sizing: border-box;
-  background-image: url(/static/rect.png);
+  background-image: url(./assets/rect.png);
   background-size: cover;
 }
 .point h4 {
@@ -408,7 +408,7 @@ a{
   width: 7rem;
   padding: 1.5rem 1.25rem;
   box-sizing: border-box;
-  background-image: url(/static/rect.png);
+  background-image: url(./assets/rect.png);
   background-size: cover;
 }
 .users h4 {
