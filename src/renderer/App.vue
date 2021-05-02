@@ -149,10 +149,13 @@
                 style="display:flex;white-space:nowrap;overflow:auto;width:500px"
               >
                 <div
-                  class="panelm frostedGlass2 animated bounce fadeInUp"
+                :class="{'redfrostedGlass':item.state=='超速','frostedGlass2':item.state=='正常'}"
+                  class="panelm  animated bounce fadeInUp"
                   v-for="item in state_list"
                   :key="item.index"
                   style="min-width:200px;height:220px;margin:10px"
+                  
+                  
                 >
                   <div class="title">状态:{{ item.state }}</div>
                   <div class="content">

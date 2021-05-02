@@ -19,7 +19,7 @@ Vue.use(Row);
 
 import App from "./App";
 import MyHeader from "./components/Header";
-import MyVideo from "./components/Video";
+//import MyVideo from "./components/Video";
 import MyFooter from "./components/Footer";
 import PlayList from "./components/PlayList";
 import MyProgress from "./components/Progress";
@@ -33,13 +33,13 @@ import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
 
 import * as echarts from 'echarts';
-import animated from 'animate.css';
+//import animated from 'animate.css';
 
-Vue.use(animated)
+//Vue.use(animated)
 Vue.prototype.$echarts = echarts;
 Vue.use(Antd);
 Vue.component("MyHeader", MyHeader);
-Vue.component("MyVideo", MyVideo);
+//Vue.component("MyVideo", MyVideo);
 Vue.component("MyFooter", MyFooter);
 Vue.component("PlayList", PlayList);
 Vue.component("MyProgress", MyProgress);

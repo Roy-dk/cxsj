@@ -36,6 +36,15 @@
   backdrop-filter: blur(10px);
   background-color: #101129;
   background: rgba(10, 11, 29, 0.48);
+  
+}
+
+.redfrostedGlass {
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(10px);
+  background-color: #101129;
+  background:rgba(253, 10, 51, 0.48)
+  
 }
 .frostedGlass2 {
   -webkit-backdrop-filter: blur(15px);
